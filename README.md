@@ -53,12 +53,12 @@ Este script en Python te permite generar **nombres y descripciones optimizadas p
 Por defecto se usa:
 
 ```python
-model = "meta-llama/llama-4-scout-17b-16e-instruct"
+model: str = "meta-llama/llama-4-scout-17b-16e-instruct"
 ```
 
 Podés cambiarlo fácilmente en el constructor de la clase `ExcelSEOOptimizer`:
 ```python
-optimizer = ExcelSEOOptimizer(model="otro-modelo-de-groq")
+model: str = "otro_modelo_de_groq"
 ```
 
 Consultá los modelos disponibles en la [documentación oficial de Groq](https://console.groq.com/docs).
