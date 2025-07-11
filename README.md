@@ -88,7 +88,3 @@ nombre,categoria,descripcion breve
 Yerba Mate,Bebidas,Tradicional y suave
 Café,Bebidas,Intenso y aromático
 ```
-
-## 📄 Licencia
-
-MIT License
